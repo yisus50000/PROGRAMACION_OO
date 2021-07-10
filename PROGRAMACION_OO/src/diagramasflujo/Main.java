@@ -12,7 +12,7 @@ public class Main {
 	int A = teclado.nextInt();	
 	int B = teclado.nextInt();
 	if(B==0) {
-	System.out.println("No se puede dividir entre o");	
+	System.out.println("No se puede dividir entre 0");	
 	}
 	else {
 	System.out.printf("La división es:" + A/B );	

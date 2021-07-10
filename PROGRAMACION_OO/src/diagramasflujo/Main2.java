@@ -19,7 +19,6 @@ public class Main2 {
 		System.out.println(A + " No es multiplo de: " + B );	
 		}
 		}
-
 	}
 
 
