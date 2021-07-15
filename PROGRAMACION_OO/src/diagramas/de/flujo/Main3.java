@@ -7,7 +7,7 @@ public class Main3 {
 	System.out.println("Tabla del 7");
 	
     for(int A=1;A<=12;A++ ) {
-    System.out.println(7*A);
+    System.out.println("7 por " + A + " es igual a " + (7*A));
     }
 }
 }
