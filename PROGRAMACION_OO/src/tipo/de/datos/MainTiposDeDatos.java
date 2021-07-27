@@ -11,7 +11,6 @@ public class MainTiposDeDatos {
     float sueldo = 1200.56f;
     double saldobanco = 219847330.67;
     char opciondemenu = 'c';
-    boolean casado = true;
-	}
-
+	}	
 }
+
