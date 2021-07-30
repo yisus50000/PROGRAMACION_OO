@@ -10,15 +10,15 @@ public class Correccionprueba2 {
  int N=0;
  int Sp=0;
  int Si=0;
- int C=1; 
+ int C=0; 
  double P=0;
- for(int i=1;i!=-1;i++) {	
+ for(int i=0;i!=-1;i++) {	
 	System.out.println("Digite un número positivo: ");
 	N=teclado.nextInt();
-	if(N==-1) {
+	if (N==-1) {
 	i=-2;
 	} 
-	if(N%2==0) 
+	if (N%2==0)
 	{
 	Sp=Sp+N;
 	} 
