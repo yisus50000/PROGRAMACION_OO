@@ -21,5 +21,4 @@ public class MainMatrices {
 	mimatriz1[1][1] = 8;
 	mimatriz1[2][2] = 2;
 	}
-
 }
