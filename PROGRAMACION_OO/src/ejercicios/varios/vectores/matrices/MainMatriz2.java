@@ -18,6 +18,5 @@ public class MainMatriz2 {
 	}
 	System.out.println();
     }
-	
 	}
 }

@@ -15,8 +15,7 @@ public class MainVector2 {
 		int X[] = new int[N];		
 		for (int i=0;i<N;i++) {
 		System.out.println("Ingrese valor de la posicion: " + i);
-		Scanner lector = new Scanner(System.in);
-		int M = lector.nextInt();
+		int M = teclado.nextInt();
 		X[i]=M;
 	}
 		for (int i=0;i<N;i++) {
