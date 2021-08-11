@@ -25,15 +25,17 @@ public class MainVectorGrupal {
 	    System.out.print( X[i] + " | ");
 }	
 		
-		System.out.println("Vector Ordenado por Java");
-	    Arrays.sort(X); 
-	    System.out.println("El vector antes de ordenar: " + Arrays.toString(X));
+	
 		System.out.println();
 	    System.out.println("Valores ordenados son: ");
 	    VectorProceso.sort(X,0,N-1);
 	    VectorProceso.printX(X);  
 	    
-
+	    
+	    
+	    System.out.println("Vector Ordenado por Java");
+	    Arrays.sort(X); 
+	    System.out.println("El vector antes de ordenar: " + Arrays.toString(X));
 	    System.out.println("El vector despues de ordenar: " + Arrays.toString(X));
 	    }
 	   
