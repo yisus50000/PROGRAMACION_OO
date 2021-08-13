@@ -6,7 +6,7 @@ public class Matriculacion {
 		// TODO Auto-generated method stub
     Impresora impresion1 = new Impresora();
     int numeroImpresion = impresion1.imprimir("Matriculasion exitosa #123456" , 12);
-    System.out.println("Se imprimira la matricula con numoero de impresion: " + numeroImpresion);
+    System.out.println("Se imprimira la matricula con numero de impresion: " + numeroImpresion);
 	}
 
 }
