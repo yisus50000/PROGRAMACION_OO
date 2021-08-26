@@ -53,7 +53,7 @@ public class MainEmpresa {
 		
 		Empleado jaime = new Empleado();
 		jaime.setNombre("Jaime");
-		jaime.setApellido("Garcia");
+		jaime.setApellido("Chavez");
 		jaime.setEdad(32);
 		jaime.setSalario(500.56);
 		
