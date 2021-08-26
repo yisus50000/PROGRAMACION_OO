@@ -15,7 +15,7 @@ public class ImpresoraHotel {
       	  System.out.println("Dias de estadia: " + dias + " días");
       	  System.out.println("Costo de su estadia: " + costo +"$");
       	  System.out.println("****** Buen precio y comodidad en un solo lugar *******");
-      	  System.out.println("****** Disfrute su estadia *******");
       	  System.out.println("****** recuerde traer sus elementos de bioseguridad *******");
+      	  System.out.println("****** Disfrute su estadia *******");    	  
 }
 }
