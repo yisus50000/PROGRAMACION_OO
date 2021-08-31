@@ -1,6 +1,6 @@
 package juego.ajedrez;
 
-public class Peon extends TableroAjedrez  {
+public class Peon extends Piezas  {
 	
 	public String color;
 

@@ -1,6 +1,6 @@
 package juego.ajedrez;
 
-public class Alfil extends TableroAjedrez {
+public class Alfil extends Piezas {
 
 	public String color;
 

@@ -1,10 +1,9 @@
 package juego.ajedrez;
 
-public class Caballo extends TableroAjedrez {
+public class Caballo extends Piezas {
 
 	public String color;
 
-	
 	public String toString() {
 		return "Caballo [color = " + color + "]";
 	}

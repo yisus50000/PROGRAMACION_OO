@@ -1,7 +1,6 @@
 package juego.ajedrez;
 
-public class Rey extends TableroAjedrez{
-
+public class Rey extends Piezas{
 
 	public String color;
 	

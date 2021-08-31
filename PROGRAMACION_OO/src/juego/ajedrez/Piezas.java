@@ -1,6 +1,8 @@
 package juego.ajedrez;
 
-public class TableroAjedrez {
+import java.util.Arrays;
+
+public abstract class Piezas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -41,7 +43,7 @@ public class TableroAjedrez {
 		Rey reyNegro = new Rey();
 		reyNegro.setColor("Negro");
 		
-        TableroAjedrez tablero[][]= new TableroAjedrez[8][8];
+        Piezas tablero[][]= new Piezas[8][8];
 		
 		tablero[0][0]=torreBlanca;
 		tablero[0][1]=caballoBlanco;
@@ -79,6 +81,8 @@ public class TableroAjedrez {
 		tablero[7][6]=caballoNegro;
 		tablero[7][7]=torreNegra;
 		
+		 System.out.println("Empleados y sus salarios");
+	     System.out.println(Arrays.toString(tablero));
 	}
 
 

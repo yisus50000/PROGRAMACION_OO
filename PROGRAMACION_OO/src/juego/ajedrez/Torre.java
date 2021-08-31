@@ -1,6 +1,6 @@
 package juego.ajedrez;
 
-public class Torre extends TableroAjedrez {
+public class Torre extends Piezas {
 
 	public String color;
 
