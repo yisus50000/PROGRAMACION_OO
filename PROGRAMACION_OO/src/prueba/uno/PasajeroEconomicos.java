@@ -3,9 +3,11 @@ package prueba.uno;
 public class PasajeroEconomicos extends Pasajero {
 
 	private String codigoDescuento;
+
 	public PasajeroEconomicos() {
-		
+
 	}
+
 	public PasajeroEconomicos(String nombre, String apellido, int edad, String codigoDescuento) {
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -21,12 +23,10 @@ public class PasajeroEconomicos extends Pasajero {
 	public void setCodigoDescuento(String codigoDescuento) {
 		this.codigoDescuento = codigoDescuento;
 	}
-	@Override
+
 	public String toString() {
-		return "PasajeroEconomicos [codigoDescuento=" + codigoDescuento + ", nombre=" + nombre + ", apellido="
-				+ apellido + ", edad=" + edad + ", getCodigoDescuento()=" + getCodigoDescuento() + ", getNombre()="
-				+ getNombre() + ", getApellido()=" + getApellido() + ", getEdad()=" + getEdad() + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+		return "**PasajeroEconomicos***"  + "\n" + "nombre=" + nombre + "\n"
+				+ "apellido=" + apellido + "\n" + "edad=" + edad + "\n" + "codigoDescuento=" + codigoDescuento;
 	}
-	
+
 }
